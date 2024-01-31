@@ -1,0 +1,7 @@
+{
+  "extends": ["react-app"],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
+//추가해주기

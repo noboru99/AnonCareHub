@@ -1,0 +1,47 @@
+.hero-section {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
+  min-height: 580px;
+  // background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    width: 100%;
+    height: 170px;
+    // border: 1px solid black;
+    font-size: 90px;
+    font-family: "Titan One", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .Anon {
+    color: #e4beb3;
+  }
+  .Anon::after {
+    content: "匿名で参加して悩みを共有";
+    font-size: 40px;
+    color: #d18b7e;
+  }
+  .Care {
+    color: #94d0ff;
+    margin-left: 1em;
+  }
+  .Care:after {
+    content: "誰かへの興味と思いやり";
+    font-size: 40px;
+    color: #5a8ed6;
+  }
+  .Hub {
+    color: #ffd0a6;
+    margin-left: 2em;
+  }
+  .Hub:after {
+    content: "その中心になる場所";
+    font-size: 40px;
+    color: #ffaa76;
+  }
+}

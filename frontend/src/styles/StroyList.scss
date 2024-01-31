@@ -1,0 +1,65 @@
+.list-page {
+  font-family: "Kosugi Maru", sans-serif;
+  margin-top: 100px;
+  width: 100%;
+  .categories-area {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    height: 150px;
+    // border: 1px solid black;
+  }
+  .list-top {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      font-size: 30px;
+
+      width: 50%;
+    }
+    .search {
+      width: 50%;
+    }
+  }
+  .latest-recommended-section {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    border-bottom: 1px solid gray;
+    div {
+      padding: 15px;
+    }
+  }
+  .post-container {
+    width: 80%;
+    min-height: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    // border: 1px solid black;
+    .no-search {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: lightgrey;
+      .no-search-icon {
+        font-size: 200px;
+        height: 200px;
+
+        // border: 1px solid black;
+      }
+      .no-search-text {
+        font-size: 60px;
+        height: 200px;
+        line-height: 5;
+        // border: 1px solid black;
+      }
+    }
+  }
+}

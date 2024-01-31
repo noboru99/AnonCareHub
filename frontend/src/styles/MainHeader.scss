@@ -1,0 +1,38 @@
+// styles.scss
+
+.main-section {
+  // border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  // background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text-section {
+    // border: 1px solid black;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    .main-text {
+      font-size: 50px;
+      line-height: 70px;
+    }
+    .top-text {
+      font-size: 30px;
+    }
+    .bottom-text {
+      font-size: 30px;
+    }
+  }
+  .image-section {
+    background-image: url("../assets/images/chatImg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 70%;
+    // background-color: antiquewhite;
+  }
+}

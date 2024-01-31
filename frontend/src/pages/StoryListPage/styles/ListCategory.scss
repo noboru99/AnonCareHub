@@ -1,0 +1,13 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 1200px;
+  padding: 1rem;
+  .category-item {
+    width: 16%;
+    height: 35px;
+    // border: 1px solid black;
+    font-size: 20px;
+  }
+}

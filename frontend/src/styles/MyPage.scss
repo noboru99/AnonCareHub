@@ -1,0 +1,38 @@
+.MyPage {
+  font-family: "Kosugi Maru", sans-serif;
+  margin-top: 100px;
+  width: 100%;
+  min-width: 1200px;
+  height: 100vh;
+  .title {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .nav-bar {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    div {
+      width: 150px;
+      height: 100%;
+      //   border: 1px solid black;
+      font-size: 25px;
+      margin-right: 10px;
+      span {
+        color: #a0aec0;
+      }
+      button {
+        border-style: none;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 25px;
+        color: #a0aec0;
+      }
+    }
+  }
+}

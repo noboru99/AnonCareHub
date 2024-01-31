@@ -1,0 +1,45 @@
+.review-section {
+  width: 100%;
+  height: 80vh;
+  margin: auto 0;
+  .review-heading {
+    width: 100%;
+    height: 20%;
+    font-size: 40px;
+    color: #645f5d;
+    text-align: center;
+  }
+  .review-contents {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    div {
+      width: 300px;
+      height: 350px;
+      position: relative;
+      background-color: rgb(244, 239, 236);
+      border-radius: 20px;
+      display: flex;
+      p {
+        margin-top: 35%;
+        font-size: 1.25rem;
+        padding: 0 1.5rem;
+        line-height: 1.5;
+        color: rgb(75, 75, 75);
+      }
+    }
+    div::before {
+      content: "";
+      position: absolute;
+      top: 5%;
+      left: 10%;
+      width: 55px;
+      height: 55px;
+      background-image: url("../assets/images/quotationmarks.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
